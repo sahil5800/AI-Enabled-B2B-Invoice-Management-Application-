@@ -1,4 +1,4 @@
-# AI-Enabled-B2B-Invoice-Management-Application-
+# AI-Enabled-B2B-Invoice-Management-Application
 My app manages the invoice data from various buyers of the B2B businesses and predicts when  the invoice will get paid. - This project is divided into two parts which first part 
 involves an ML model In which we uploaded the invoice data of various companies and then created a prediction model by processing the data and finally predicting the dates on which the invoice are going to get paid -The 
 second part involves creating a full-stack web application using java for the backend and React for the front end a subheading.
