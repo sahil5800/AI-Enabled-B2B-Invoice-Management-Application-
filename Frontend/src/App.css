@@ -1,0 +1,135 @@
+body{
+  background-color: #1b2b45;
+}
+div{
+  color: #fff;
+}
+
+/*---------Grid view------*/
+.container{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  padding: 20px;
+}
+
+.crud{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Search{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*-----button-------*/
+
+.button{
+  padding: 6px 40px;
+  background-color: #1b2b45;
+  border-radius: 5px;
+  color: #fff;
+  border: 2px solid #0bd8e2; 
+}
+.button:hover {
+  background-color: #1cb1cf; /* Green */
+  color: rgb(0, 0, 0);
+}
+
+.button.action{
+  padding: 6px 110px;
+}
+
+
+.button.crud{
+  padding: 6px 60px;
+
+}
+
+.button.reload{
+  padding: 0.8px 20px;
+}
+
+
+style{
+  margin-left:101px;
+}
+
+/*-----------------------*/
+
+/*-------Search-----------*/
+.Searchbutton {
+  padding: 6px;
+  padding-left:80px;
+  padding-right: 50px;
+  border-radius: 5px;
+}
+
+.Searchbutton.crud {
+  padding: 4px;
+  padding-left:50px;
+  padding-right: 30px;
+  border-radius: 5px;
+}
+/*------------------------*/
+
+/*-------navbar --------*/
+.image{
+  padding: 40px;
+}
+.y{
+  padding-left: 290px;
+}
+/*--------------------*/
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main-footer{
+  color: white;
+  background-color: #1b2b45;
+  padding-top: 0.5cm;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items : center;
+}
+
